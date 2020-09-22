@@ -1,7 +1,7 @@
 {
-  "name": "u-demo",
+  "name": "u-link",
   "version": "0.0.0",
-  "description": "u-demo component",
+  "description": "u-link component",
   "main": "index.js",
   "author": "You <youux@outlook.com>",
   "license": "ISC"
