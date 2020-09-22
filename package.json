@@ -5,25 +5,33 @@
   ],
   "name": "u-vueui",
   "version": "0.0.0",
-  "description": "",
+  "description": "vue3组件库",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
-    "create": "plop"
+    "create": "plop",
+    "lerna": "lerna publish"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/youux/u-vueui.git"
   },
-  "keywords": [],
-  "author": "You <you9009@foxmail.com>",
+  "keywords": [
+    "vue",
+    "vue3",
+    "ui",
+    "component library",
+    "front end",
+    "youux"
+  ],
+  "author": "You <youux@outlook.com>",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/youux/u-vueui/issues"
   },
-  "homepage": "https://github.com/youux/u-vueui#readme",
+  "homepage": "https://github.com/youux/u-vueui#README.md",
   "dependencies": {
     "vue": "^3.0.0"
   },
@@ -33,6 +41,7 @@
     "@storybook/addon-essentials": "^6.0.21",
     "@storybook/addon-links": "^6.0.21",
     "@storybook/vue": "^6.0.21",
+    "babel-core": "^6.26.3",
     "babel-loader": "^8.1.0",
     "lerna": "^3.22.1",
     "plop": "^2.7.4",
