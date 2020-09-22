@@ -1,4 +1,8 @@
 {
+  "private": true,
+  "workspaces": [
+    "./packages/*"
+  ],
   "name": "u-vueui",
   "version": "0.0.0",
   "description": "",
@@ -6,7 +10,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "build-storybook": "build-storybook",
+    "create": "plop"
   },
   "repository": {
     "type": "git",
@@ -29,6 +34,10 @@
     "@storybook/addon-links": "^6.0.21",
     "@storybook/vue": "^6.0.21",
     "babel-loader": "^8.1.0",
-    "react-is": "^16.13.1"
+    "lerna": "^3.22.1",
+    "plop": "^2.7.4",
+    "react-is": "^16.13.1",
+    "vue-loader": "^15.9.3",
+    "vue-template-compiler": "^2.6.12"
   }
 }
